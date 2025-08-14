@@ -1,0 +1,6 @@
+system_prompt: |
+  Make the {{gender}} on the left side wear the {{description}}. Ignore the model wearing the {{description}}. Keep the style and design of the {{description}} the same. Special notice to correct the clothes color after you conduct. Remove the clothes and the right side model from the scene.
+
+jinja_args:
+  - gender
+  - description

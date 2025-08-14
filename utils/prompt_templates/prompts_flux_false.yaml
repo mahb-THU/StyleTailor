@@ -1,0 +1,6 @@
+system_prompt: |
+  Make the {{gender}} wear the {{description}}. Keep the {{gender}}'s pose the same. Keep the style and design of the {{description}} the same. Correct the clothes color after you conduct. Remove the clothes from the scene.
+
+jinja_args:
+  - gender
+  - description
